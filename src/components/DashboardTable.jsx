@@ -4,8 +4,9 @@ export const DashboardTable = () => {
   return (
     <>
       <div className="table-container">
+        <h3 className="table-title">Last 10 orders</h3>
+
         <table className="table">
-        <caption className="table-title">Last 10 orders</caption>
           <thead className="table__head">
             <tr className="table__head-row">
               <th className="table__head-column">Id</th>

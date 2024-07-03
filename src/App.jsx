@@ -29,7 +29,7 @@ function App() {
         },
         {
           path: "/",
-          element: <Dashboard title="Dashboard" />, // Ruta por defecto
+          element: <Dashboard title="Dashboard" />,
         },
       ],
     },
