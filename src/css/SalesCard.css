@@ -1,0 +1,59 @@
+.dashboard-card {
+  background-color: var(--white);
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.1);
+}
+
+.dashboard-card__top-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.55rem;
+  padding: 2.5rem 0 2.8rem 2.4rem;
+}
+
+.dashboard-card__data-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+.dashboard-card__img {
+  background-color: #008c1f;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+}
+
+.dashboard-card__sales-type {
+  font-size: 1.34rem;
+  margin: 0.2rem 0 0.6rem;
+  font-weight: var(--bold-font);
+  color: var(--gray);
+  flex-basis: 100%;
+}
+
+.dashboard-card__money-amount {
+  font-size: 2.33rem;
+  margin: 0;
+  font-weight: var(--medium-font);
+}
+
+.dashboard-card__money-percentage {
+  align-self: flex-end;
+  font-size: 1.3rem;
+  font-weight: var(--bold-font);
+  color: rgb(0, 148, 0);
+}
+
+.dashboard-card__bottom-section {
+  background-color: #e5f0e7;
+  padding: 1.8rem;
+  padding-left: 2.4rem;
+}
+
+.dashboard-card__view-link {
+  text-decoration: none;
+  color: #0d922b;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
